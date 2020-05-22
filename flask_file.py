@@ -1,3 +1,5 @@
+# How to run in Background job as flask application:
+# sudo nohup python3.6 /home/flask1.py > /tmp/flask.logs 2>&1 &
 import sys
 from flask import Flask, render_template, redirect, url_for, request
 app = Flask(__name__, template_folder="/root/templates")
